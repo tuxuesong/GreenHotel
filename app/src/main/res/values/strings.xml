@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GreenHote</string>
+    <!--HOME-->
+    <string name="app_home_bookone">预订</string>
+    <string name="app_home_booktwo">订单</string>
+    <string name="app_home_bookthree">服务</string>
+    <string name="app_home_bookfour">我的</string>
+
+    <!--bookone-->
+    <string name="bookone_left_tv">全日房</string>
+    <string name="bookone_right_tv">休闲房</string>
+    <string name="bookone_lefttwo_tv">上海</string>
+    <string name="bookone_leftthree_tv">全部</string>
+    <string name="bookone_nearby_tv">附近酒店</string>
+    <string name="bookone_search_tv">开始搜索</string>
+
+    <string name="choosecity_tv">选择城市</string>
+    <string name="choosecity_et">请输入关键字</string>
+</resources>

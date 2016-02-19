@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:id="@+id/home_fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <RadioGroup
+        android:id="@+id/home_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <RadioButton
+            android:id="@+id/home_rb_bookone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="10sp"
+            android:text="@string/app_home_bookone"
+            android:drawableTop="@drawable/selector_bookone"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/home_rb_booktwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="10sp"
+            android:text="@string/app_home_booktwo"
+            android:drawableTop="@drawable/selector_booktwo"
+            android:gravity="center"
+
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/home_rb_server"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="10sp"
+            android:text="@string/app_home_bookthree"
+            android:drawableTop="@drawable/selector_server"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/home_rb_my"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/selector_my"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/app_home_bookfour"
+            android:textSize="10sp"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+</LinearLayout>
